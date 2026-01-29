@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Nama saya</title>
+    <link rel="stylesheet" href="style.css"> // Link ke file CSS
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <h2>Nama saya</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--- Hero Section -->
+    <section id="home">
+        <h1 class="highlight">Halo,saya<span>Riska Luna Febriana</span></h1>
+        <p>Aspiring web developer | SMK RPL Student</p>
+        <a href="#contact">Hubungi Saya</a>
+   </section>
+
+    <!-- About Section -->
+     <section id="about">
+        <h2>Tentang saya</h2>
+        <div>
+            <img src="https://assets.telkomsel.com/public/2025-02/Cewek-Siluet-2.png?VersionId=D_0oCoDFaQsOcLVJbCPkMNLxVzDxF2yz" alt="Foto Profil" width="200">
+            <div>
+                <p> Halo saya Riska Luna,siswa smk jurusan rpl yang passionate dalam web developement.</p>
+                <p>Saya senang belajar teknologi baru dan membuat project yang berguna untuk masyarakat.</p>
+            </div>
+        </div>
+     </section>
+
+     <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills saya</h2>
+        <div class="container">
+            <div class="item">
+                <h3>HTML</h3>
+                <p>Beginner</p>
+            </div>
+            <div class="item">
+                <h3>CSS</h3>
+                <p>Beginner</p>
+            </div>
+            <div clas="item">
+                <h3>JavaScript</h3>
+                <p>Learning</p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+       <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <article>
+                <h3>Project 2: Protofolio Website</h3>
+                <p>Website portofolio pribadi menggunakan HTML & CSS</p>
+                <a hrf="#">Lihat projrct</a>
+            </article>
+            <article>
+             <h3>Project 2: Landing page</h3>
+                <p>Landing page untuk produk digital</p>
+                <a hrf="#">Lihat projrct</a>   
+            </article>
+        </div>
+       </section>
+
+       <!-- Contact Section -->
+        <section id="contact">
+            <h2>Hubungi saya</h2>
+            <form>
+                <div>
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                </div>
+                <button class="btn-primary" type="submit">Kirim pesan</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+         <footer>
+            <p>&copy; 2025 manusia. All Rights Reserved.</p>
+         <div>
+            <a href="https://github.com/username" target="_blank">GitHub</a>
+            <a href="https://instagram.com/username" target="_blank">Instagram</a>
+            <a href="mailto:email@gmail.com">Email</a>
+         </div>
+         </footer>
+
+</body>
+</html>
